@@ -4,7 +4,7 @@
 class Encrypt 
 {
     public static function __key(){
-        return hash('md5', 'rahao');
+        return hash('md5', 'ikigami');
     }
     public static function __protect($string){
         $string = trim(strip_tags(addslashes($string)));
